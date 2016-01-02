@@ -1,0 +1,20 @@
+you'll rip out the Parse server, and replace it with a local one you'll build using Node.js.
+you'll use Node.js to implement a simple chat server. 
+Users should be able to connect to your Node server with a web browser, choose a username, send messages, and see the messages sent by all the other users connected to the same server.
+run in cli : node-debug app.js
+run in cli : nodemon ./server.js localhost 8080
+[DONE] npm install --save underscore
+[DONE] Upon initially cloning the repo, be sure to run npm install to install the necessary packages as defined in your package.json file.
+[DONE]Continue to use bower to install (and keep track of) all the client-side libraries you use as you work through this sprint.
+[DONE]Use npm to install (and keep track of) all the server-side libraries you use as you work through this sprint.
+
+[DONE]Learn how to use Node to start an HTTP server and how to connect to that
+Define the 
+[DONE]Learn how to use export and require. Write a proper request handling
+[DONE]Make your Node server implement the URLs you used for your chat client
+[DONE]Modify your chat-client code to connect to your Node server instead of Parse: http://127.0.0.1:3000/ instead of https://api.parse.com/1/). Start the server and try out the client!
+Make all the Mocha tests pass. Run npm install. Run the tests using npm test from the main directory.
+The tests in server/spec/ServerSpec.js expect the handleRequest function in server/request-handler.js to be defined.
+You should learn about OPTIONS requests: http://zacstewart.com/2012/04/14/http-options-method.html
+You'll need to make sure you're handling options requests in your router, and sending back appropriate headers, or else ain't nothing gone work .
+

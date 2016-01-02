@@ -1,0 +1,21 @@
+{
+  "name": "2015-08-chatterbox-server",
+  "version": "0.0.0",
+  "homepage": "https://github.com/sndsgn/2015-08-chatterbox-server",
+  "authors": [
+    "Hack Reactor Students <accounts@hackreactor.com>"
+  ],
+  "dependencies" : {
+    "underscore" : "latest"
+  },
+  "main": "request-handlers.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_components",
+    "test",
+    "tests"
+  ]
+}
